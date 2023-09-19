@@ -3,25 +3,51 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --primary-color: #150E28;
+
+  --purple-blue: #903AFF;
+  --shade-purple: #D434FE;
+  --shade-pink: #FE34B9;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: #ffffff;
+  background: var(--primary-color);
 }
+
+.max-width {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.button-gradient {
+  background: linear-gradient(to right, var(--shade-pink), var(--shade-purple), var(--purple-blue));
+}
+
+/* Mobile View styles */
+.mobile_popup {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+}
+.mobile_popup_inactive {
+  opacity: 0;
+  visibility: hidden;
+  left: -99999rem;
+  right: 99999rem;
+}
+.mobile_popup_active {
+  opacity: 1;
+  visibility: visible;
+  left: 0;
+  right: 0;
+  z-index: 100000;
+  transition: opacity 0.25s ease-out;
+}
+
