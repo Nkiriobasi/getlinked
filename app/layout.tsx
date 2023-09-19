@@ -1,8 +1,12 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Montserrat } from 'next/font/google'
+import Navbar from './layouts/navbar/navbar'
+import Footer from './layouts/footer/footer'
+import { VisibilityContextProvider } from './context/visibility.context'
+import MobileViewPopup from './layouts/mobileViewPopup/mobileViewPopup'
 
-const inter = Inter({ subsets: ['latin'] })
+const montserrat = Montserrat({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'getlinked',
@@ -16,7 +20,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={montserrat.className}>
+        <VisibilityContextProvider>
+          <Navbar />
+          {children}
+          <MobileViewPopup />
+          {/* <Footer /> */}
+        </VisibilityContextProvider>
+      </body>
     </html>
   )
 }
