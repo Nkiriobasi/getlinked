@@ -3,7 +3,7 @@
 import React, { useContext } from "react";
 import Image from 'next/image';
 import { VisibilityContext } from "@/app/context/visibility.context";
-import HamburgerClose from "@/public/hamburger-close.svg";
+import HamburgerClose from "@/public/hamburger-close.webp";
 import Navlinks from "@/app/components/navlinks/navlinks";
 
 
