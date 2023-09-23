@@ -1,12 +1,9 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Montserrat } from 'next/font/google'
-import Navbar from './layouts/navbar/navbar'
-import Footer from './layouts/footer/footer'
+import Header from './layouts/header/header'
 import { VisibilityContextProvider } from './context/visibility.context'
 import MobileViewPopup from './layouts/mobileViewPopup/mobileViewPopup'
-
-const montserrat = Montserrat({ subsets: ['latin'] })
+import { montserrat } from './fonts/fonts'
 
 export const metadata: Metadata = {
   title: 'getlinked',
@@ -22,10 +19,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={montserrat.className}>
         <VisibilityContextProvider>
-          <Navbar />
+          <Header />
           {children}
           <MobileViewPopup />
-          {/* <Footer /> */}
         </VisibilityContextProvider>
       </body>
     </html>
