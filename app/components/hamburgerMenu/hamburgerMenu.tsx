@@ -3,7 +3,7 @@
 import React, { useContext } from 'react';
 import Image from 'next/image';
 import { VisibilityContext } from '@/app/context/visibility.context';
-import HamburgerOpen from '@/public/hamburger-open.svg'
+import HamburgerOpen from '@/public/hamburger-open.webp'
 
 
 const Menu = () => {

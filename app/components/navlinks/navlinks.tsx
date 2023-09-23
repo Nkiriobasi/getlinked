@@ -36,7 +36,7 @@ const Navlinks = () => {
             })}
 
             <span className="w-auto extraSizeMd:ml-8 ml-0 extraSizeMd:mt-0 mt-4">
-                <Button label="Register" />
+                <Button label="Register" href="/register" />
             </span>
         </ul>
     </nav>
