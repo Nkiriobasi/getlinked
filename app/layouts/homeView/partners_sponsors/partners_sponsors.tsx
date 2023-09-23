@@ -1,5 +1,5 @@
 import Image from "next/image";
-import PartnerAndSponsors from '@/public/Partner-and-sponsors-section.webp';
+import PartnerAndSponsors from '@/public/partner-and-sponsors-section.webp';
 
 const Partners_Sponsors = () => {
   return (
