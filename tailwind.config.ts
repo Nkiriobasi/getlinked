@@ -21,8 +21,10 @@ const config: Config = {
         shadePink: 'var(--shade-pink)',
       },
       screens: {
+        's': '375px',
         'xs': '475px',
         'extraSizeMd': '900px',
+        '1xl': '1440px',
         ...defaultTheme.screens,
       },
     },
