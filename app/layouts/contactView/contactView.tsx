@@ -4,9 +4,9 @@ import { FaInstagram, FaXTwitter, FaFacebookF, FaLinkedinIn } from 'react-icons/
 const ContactView = () => {
   return (
     <main className="w-full flex items-center relative extraSizeMd:h-[892px] md:h-[862px] h-auto">
-        <div className="circle-gradient absolute left-[-10%] top-[-10%]"></div>
+        <div className="circle-gradient absolute left-[-10%] top-[-10%] opacity-60"></div>
 
-        <div className="container flex flex-col justify-center z-20">
+        <div className="container flex flex-col justify-center z-[5]">
             <div 
                 className="flex w-full items-start xl:justify-center 
                 md:justify-between justify-center xl:px-0 lg:px-[60px] px-5 md:py-0 py-10"
@@ -63,7 +63,7 @@ const ContactView = () => {
             </div>
         </div>
 
-        <div className="circle-gradient absolute right-0 bottom-[12%]"></div>
+        <div className="circle-gradient absolute right-0 bottom-[12%] opacity-60"></div>
     </main>
   )
 }

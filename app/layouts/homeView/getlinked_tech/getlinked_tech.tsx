@@ -11,8 +11,8 @@ import { unica_One } from '@/app/fonts/fonts'
 const Getlinked_Tech = () => {
   return (
     <div className="section">
-        <div className="circle-gradient absolute left-[10%] top-[-5%]"></div>
-        <div className="circle-gradient absolute extraSizeMd:right-[4%] right-[15%] extraSizeMd:top-[6%] top-[60%]"></div>
+        <div className="circle-gradient absolute left-[10%] top-[-5%] opacity-60"></div>
+        <div className="circle-gradient absolute extraSizeMd:right-[4%] right-[15%] extraSizeMd:top-[6%] top-[60%] opacity-60"></div>
 
         <div className="container lg:pl-[60px] pl-5 pt-4 pr-5 relative">
             <div className="column-flex">
@@ -34,7 +34,7 @@ const Getlinked_Tech = () => {
                     className="w-full h-full flex extraSizeMd:flex-row flex-col extraSizeMd:items-start items-center 
                     extraSizeMd:justify-between justify-center relative extraSizeMd:mt-[120px] xs:mt-[80px] mt-16"
                 >
-                    <span className="relative extraSizeMd:inline-block flex flex-col items-center z-10 w-full">
+                    <span className="relative extraSizeMd:inline-block flex flex-col items-center z-[5] w-full">
                         <h3 
                             className="1xl:text-[80px] extraSizeMd:text-[60px] xs:text-[36px] 
                             text-[30px] font-bold leading-tight"

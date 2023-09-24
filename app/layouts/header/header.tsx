@@ -10,7 +10,7 @@ const Header = () => {
 
   return (
     <header 
-        className={`w-full h-full sticky top-0 z-[2023] bg-inherit 
+        className={`w-full h-full sticky top-0 z-10 bg-inherit 
         ${pathname === '/contact' || pathname === '/register' 
             ? 'md:block hidden'
             : 'block'}`}

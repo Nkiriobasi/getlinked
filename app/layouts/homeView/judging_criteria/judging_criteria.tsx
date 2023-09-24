@@ -6,8 +6,8 @@ import Button from "@/app/components/button/button";
 const Judging_Criteria = () => {
   return (
     <div className="section relative">
-      <div className="circle-gradient absolute left-[10%] top-[35%]"></div>
-      <div className="circle-gradient absolute right-[-5%] bottom-[-5%]"></div>
+      <div className="circle-gradient absolute left-[10%] top-[35%] opacity-60"></div>
+      <div className="circle-gradient absolute right-[-5%] bottom-[-5%] opacity-60"></div>
 
       <div className="container lg:px-[40px] px-5 pt-[60px] pb-[80px] relative">
         <div className="column-flex">

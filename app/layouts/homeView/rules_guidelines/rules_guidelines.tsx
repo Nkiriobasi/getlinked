@@ -4,8 +4,8 @@ import Rules_GuidelinesWebp from '@/public/rules_guidelines.webp';
 const Rules_Guidelines = () => {
   return (
     <div className="section relative">
-        <div className="circle-gradient absolute left-[10%] top-[-20%]"></div>
-        <div className="circle-gradient absolute right-[-20%] bottom-0"></div>
+        <div className="circle-gradient absolute left-[10%] top-[-20%] opacity-60"></div>
+        <div className="circle-gradient absolute right-[-20%] bottom-0 opacity-60"></div>
 
         <div className="container lg:px-[60px] px-5 md:pb-[10px] pb-[30px] pt-[10px] relative">
             <div className="column-flex">

@@ -4,8 +4,8 @@ import PartnerAndSponsors from '@/public/partner-and-sponsors-section.webp';
 const Partners_Sponsors = () => {
   return (
     <div className="section extraSizeMd:mb-10 mb-0 relative">
-      <div className="circle-gradient absolute left-0 top-[-10%]"></div>
-      <div className="circle-gradient absolute right-[-10%] bottom-[5%]"></div>
+      <div className="circle-gradient absolute left-0 top-[-10%] opacity-60"></div>
+      <div className="circle-gradient absolute right-[-10%] bottom-[5%] opacity-60"></div>
 
       <div className="container lg:px-[60px] px-5 sm:py-[80px] py-[60px] relative">
         <div className="column-flex">

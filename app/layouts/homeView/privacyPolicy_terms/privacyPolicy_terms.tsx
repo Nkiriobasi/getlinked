@@ -6,7 +6,7 @@ import LockBg from '@/public/lock-bg.webp';
 const PrivacyPolicy_Terms = () => {
   return (
     <div className="w-full h-full relative">
-      <div className="circle-gradient absolute left-0 top-[50%]"></div>
+      <div className="circle-gradient absolute left-0 top-[50%] opacity-60"></div>
 
       <div className="container lg:px-[40px] px-5 lg:pt-[140px] pt-[80px] md:pb-[100px] pb-[80px] relative">
         <div className="column-flex">

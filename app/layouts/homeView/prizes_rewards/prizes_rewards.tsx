@@ -5,8 +5,8 @@ import Rewards from '@/public/rewards.webp';
 const Prizes_Rewards = () => {
   return (
     <div className="w-full h-full bg-[#0d061f] relative">
-      <div className="circle-gradient absolute left-[18%] top-[5%]"></div>
-      <div className="circle-gradient absolute right-[-20%] bottom-[5%]"></div>
+      <div className="circle-gradient absolute left-[18%] top-[5%] opacity-60"></div>
+      <div className="circle-gradient absolute right-[-20%] bottom-[5%] opacity-60"></div>
 
       <div className="container lg:px-[40px] px-5 sm:py-[80px] py-[60px] relative">
         <div className="column-flex">
