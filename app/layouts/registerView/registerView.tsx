@@ -1,7 +1,6 @@
 import Image from "next/image"
 import RegisterFormImg from '@/public/3d-graphic-designer-showing-thumbs-up.webp'
 import RegisterForm from "@/app/components/forms/registerForm/registerForm"
-import InfoModal from "@/app/components/infoModal/infoModal"
 
 const RegisterView = () => {
   return (
@@ -16,10 +15,6 @@ const RegisterView = () => {
             </div>
           </section>
           
-          <InfoModal 
-            infoHeader="Sent successfully" 
-            infoBody="Thank you for contacting us, check your mail for our response" 
-          />
           <RegisterForm />
         </div>
       </div>
